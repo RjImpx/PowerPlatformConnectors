@@ -2580,14 +2580,14 @@
               type: boolean
               description: Primary
               title: Primary
-              enum: ['', true, false]
+              enum: [true, false]
             address: {type: string, description: Address., title: Address}
             type: {type: string, description: Type., title: Type}
             showInDirectory:
               type: boolean
               description: Show In Directory
               title: Show In Directory
-              enum: ['', true, false],
+              enum: [true, false],
       /api/v1/Individuals/{idOrRecordNumber}/Addresses:
     post:
       responses:
@@ -4677,7 +4677,7 @@
         type: boolean
         description: Primary.
         title: Primary
-        enum: ['', true, false]
+        enum: [ true, false]
       line1: {type: string, description: Line 1., title: Line 1}
       line2: {type: string, description: Line 2., title: Line 2}
       line3: {type: string, description: Line 3., title: Line 3}
@@ -4690,22 +4690,22 @@
         type: boolean
         description: Show In Directory.
         title: Show In Directory
-        enum: ['', true, false]
+        enum: [ true, false]
       isPreferredShipping:
         type: boolean
         description: Is Preferred Shipping.
         title: Is Preferred Shipping
-        enum: ['', true, false]
+        enum: [ true, false]
       isPreferredBilling:
         type: boolean
         description: Is Preferred Billing.
         title: Is Preferred Billing
-        enum: ['', true, false]
+        enum: [true, false]
       isBadAddress:
         type: boolean
         description: Is Bad Address.
         title: Is Bad Address
-        enum: ['', true, false],
+        enum: [ true, false],
   SubscriptionData:
     type: object
     properties:
@@ -4724,7 +4724,7 @@
         type: boolean
         description: Is Admin.
         title: Is Admin
-        enum: ['', 'true', 'false'],
+        enum: [ 'true', 'false'],
   EducationCredits:
     type: array
     items:
@@ -5520,12 +5520,12 @@
         type: boolean
         description: Primary.
         title: Primary
-        enum: ['', true, false]
+        enum: [ true, false]
       showInDirectory:
         type: boolean
         description: Show in Directory.
         title: Show in Directory
-        enum: ['', true, false]
+        enum: [true, false]
       number: {type: string, description: Number., title: Number}
       extension: {type: string, description: Extension., title: Extension}
       typeName:
