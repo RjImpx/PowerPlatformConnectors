@@ -13,7 +13,7 @@
   "host": "automation.impexium.com",
   "basePath": "/",
   "schemes": [
-    "https"
+    "http"
   ],
   "consumes": [
     "application/json"
